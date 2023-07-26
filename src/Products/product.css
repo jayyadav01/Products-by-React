@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color: rgb(223, 200, 200);   
+}
+.parent
+{
+    width: 88%;
+    height: 5010px;
+    /* border: 5px solid red; */
+    margin: 50px auto;
+}
+.detail{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.detail .box{
+    height: 460px;
+    width: 350px;
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+}
+.image
+{
+    text-align: center;   
+}
+.des
+{
+    height: 50%;
+}
+.des h1
+{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.des p
+{
+    margin: 20px 0;
+}
